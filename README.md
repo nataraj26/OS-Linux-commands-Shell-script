@@ -1,4 +1,3 @@
-![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/7f1336ae-e377-46e3-94ec-f87e8e7d8321)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -228,79 +227,80 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/12872a05-56d4-45f1-bed1-c0b1413612b3)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/201fac8f-7c29-4b5d-93a5-aeae2930a2be)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/b3b926b0-1d64-4cbb-8f65-a03af905e7e9)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/d7df671a-bf8a-482d-b480-328da569ca3a)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/f6cbdc0d-f61b-4863-9ae3-2bbaaadc08ad)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
-
-
-sed -n -e '2,/Joe/p' file23
-## OUTPUT
-
-
-
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/26ab738d-dfb3-4b09-a7e0-ea88e9b1d425)
 
 sed -n -e '/tom/,/Joe/p' file23
-## OUTPUT
 
+## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/e2a7e9d6-50c6-45a4-8e8a-19d65aa0bcf7)
 
 
 seq 10 
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/5454892d-1548-4252-b15a-6de377ea4c23)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/09ad0072-db8f-4cd8-8ef3-14ae4c67ca3d)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/8eddaa61-6bdb-48b3-8e43-da022ce42980)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/f4fde6dd-17c1-426c-875e-c8c8006ab8b5)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/8596cd0e-c819-4c47-bfe1-b0cc7d616e8a)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/807c3dcc-1222-4a43-92b2-9fcc941a21fb)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
-
-sed -n '2,4{s/$/*/;p}' file23
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/585d2e01-b919-447f-ad5c-cf512a635996)
 
 
 #Sorting File content
