@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/7f1336ae-e377-46e3-94ec-f87e8e7d8321)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -43,22 +43,26 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/915f28e9-228c-46ee-b02d-bd3859281454)
 
 
 cat < file2
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/b92db5cf-1aa4-4bb3-9913-293d783233dc)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/de21f859-16ee-4eec-9afc-eb8a8bc9b07e)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/8c941473-d69f-4321-bc0b-5eaa6e53c381)
 
- 
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/a73c0e80-6da7-4a6b-8f23-11a222e19bb6)
 
 
 #Filters
@@ -83,16 +87,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/0f54e436-5eb5-4bfe-9fe1-e3299ede502a)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/6fb88690-6d2e-4a04-8bef-16a27abdad85)
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/1dd8613a-ef85-41cc-b3c2-7cb4c38ab82f)
 
 
 cat < newfile 
@@ -111,36 +119,19 @@ grep Hello newfile
 
 
 grep hello newfile 
-## OUTPUT
-
-
-
 
 grep -v hello newfile 
-## OUTPUT
-
-
 
 cat newfile | grep -i "hello"
-## OUTPUT
-
-
-
 
 cat newfile | grep -i -c "hello"
-## OUTPUT
-
-
-
 
 grep -R ubuntu /etc
-## OUTPUT
-
-
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/2fa97e9a-1dcb-438b-8c5d-fefc259aeb15)
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/630dc2a2-3f58-4a55-908e-c1f9e6e2e040)
 
 cat < newfile 
 ```
