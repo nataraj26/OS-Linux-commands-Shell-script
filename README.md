@@ -154,59 +154,62 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/38bb3c47-14f1-40f0-b60f-f979d6c6f5eb)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/cadcded5-1ee6-4949-88b6-5afc085f886b)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/4bf402fc-e78c-431e-839c-86d9ad1d96c9)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/62ab4937-cba2-4dab-be01-ecd29e60fbe0)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/0776cae1-362d-4f71-8f9a-87ab702a25c3)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/0ad558fd-82b8-4c5f-bbfa-e209c3e3f3cf)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
-
-egrep '[1-9]' newfile 
-## OUTPUT
-
-
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/1d8d3bfc-a5cd-4077-86d1-bb92bd72914f)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/44a951cc-00b4-4312-a038-d5cb0b6336fe)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/6448b5b4-31fd-46df-b77a-82510d448da4)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/051766d5-7afd-4242-bf52-b7adaa87c3b1)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/fda8150e-26ec-434d-9d7b-f4d74c44509d)
 
 
 cat > file23
