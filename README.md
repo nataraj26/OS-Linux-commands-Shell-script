@@ -314,6 +314,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+[image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/47c9125d-0d30-4c82-90f2-98a00ea8d91a)
 
 
 cat > file22
@@ -328,12 +329,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/4a22dd02-b34a-4616-a37a-6d7dfe57ff3b)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/af8b88c7-3793-4297-a0d0-99dfe8546924)
 
 cat < urllist.txt
 ```
@@ -350,11 +353,13 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/e44f4e47-a38f-4ea7-bef3-f1ab6f61e58b)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/99f06865-8638-41da-b978-c8ad0d682179)
 
 
 
@@ -369,20 +374,23 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/734dd84b-f118-4495-a431-7f0de58d0077)
 
 
 tar -xvf backup.tar
-## OUTPUT
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/2f8e2898-e6f7-4655-b67c-4d6a5b6b71d6)
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/ac548c90-6ebf-4ba2-a224-b36c09f9174f)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/9397b5e4-4079-4dde-beda-e6d4e3922e47)
 
- 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -391,6 +399,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/e5159778-3890-4649-b14c-2f6869f8a0d7)
 
  
 cat << stop > herecheck.txt
@@ -403,6 +412,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/nataraj26/OS-Linux-commands-Shell-script/assets/147514615/b3948feb-3a64-4748-b109-90439f1bd5f8)
 
 
 cat < scriptest.sh 
